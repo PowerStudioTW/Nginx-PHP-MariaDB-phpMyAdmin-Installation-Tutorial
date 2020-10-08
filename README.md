@@ -55,7 +55,7 @@ apt install software-properties-common
 add-apt-repository ppa:ondrej/php
 apt update
 
-apt install php7.4-fpm php7.4-mysql php7.4-curl -y
+apt install php7.4-fpm php7.4-mysql php7.4-curl php7.4-dom php7.4-mbstring -y
 ```
 
 更改config檔案，至 `/etc/php/{版本代號，如7.4}/fpm` 下修改`php.ini`
